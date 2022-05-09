@@ -1,0 +1,43 @@
+name: Bug Report
+description: 向我们反馈您发现的BUG
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - wycwyhwyq
+body:
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: 请描述一下BUG现象
+      placeholder: xx发生了异常
+    validations:
+      required: true
+  - type: textarea
+    id: how_happened
+    attributes:
+      label: 请描述一下BUG复现流程
+      placeholder: 运行xx后,xx发生了异常
+    validations:
+      required: true  
+  - type: input
+    id: hw_version
+    attributes:
+      label: 硬件型号
+      placeholder: "k510 crb kit"
+      value: "k510 crb kit"
+    validations:
+      required: false
+  - type: input
+    id: sw_version
+    attributes:
+      label: 软件版本
+      placeholder: "v1.0或git id"
+    validations:
+      required: false
+  - type: textarea
+    id: other
+    attributes:
+      label: 如果您还有其它信息,请在下面描述
+      placeholder: 异常log或其它
+    validations:
+      required: false

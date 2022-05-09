@@ -1,0 +1,27 @@
+name: Feature Request
+description: 向我们建议您想要的Feature
+title: "[Feature]: "
+labels: ["feature"]
+assignees:
+  - wycwyhwyq
+body:
+  - type: textarea
+    id: what_add
+    attributes:
+      label: 请描述一下您想要的Feature
+      placeholder: 增加xx特性
+    validations:
+      required: true
+  - type: textarea
+    id: way_add
+    attributes:
+      label: 请描述一下您为什么需要这个Feature
+      placeholder: 因为我的xx应用需要依赖xx特性
+    validations:
+      required: false
+  - type: textarea
+    id: other
+    attributes:
+      label: 如果您还有其它信息,请在下面描述
+    validations:
+      required: false
