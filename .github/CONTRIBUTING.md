@@ -50,3 +50,4 @@ git format-patch --no-renames -1
 
 * [GitHub Flavored Markdown](https://docs.github.com/en/get-started/writing-on-github)
 * [GitHub PR Flow](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests)
+* [GitHub Contributing](https://git-scm.com/book/zh/v2/GitHub-%E5%AF%B9%E9%A1%B9%E7%9B%AE%E5%81%9A%E5%87%BA%E8%B4%A1%E7%8C%AE)
