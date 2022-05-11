@@ -1,4 +1,4 @@
-name: HELP
+name: Help
 description: 向我们寻求帮助
 title: "[help]: "
 labels: ["help"]
@@ -8,7 +8,10 @@ body:
   - type: textarea
     id: help
     attributes:
-      label: 请描述一下您遇到的问题或需要什么帮助
-      placeholder: 请问我在__时遇到了__问题,应该怎么办
+      label: Help
+      description: 帮助
+      placeholder: |
+        A clear and concise description of your problem. (请简洁清晰的描述一下您遇到的问题)
+        Tip: You can attach images or files by clicking this area to highlight it and then dragging files in. (您能点击这个区域然后拖动文件来添加图片或文件)
     validations:
       required: true
