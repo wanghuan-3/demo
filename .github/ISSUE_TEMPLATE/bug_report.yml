@@ -33,7 +33,7 @@ body:
   - type: input
     id: sw_version
     attributes:
-      label: Softwarw version
+      label: Software version
       description: 软件版本
       placeholder: v1.0 or git id
     validations:
